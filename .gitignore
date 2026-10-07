@@ -1,0 +1,17 @@
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+# django
+*.sqlite3
+/staticfiles/
+/media/
+# local env — never commit secrets
+.env
+.env.*
+!.env.example
+# editor
+.idea/
+.vscode/
